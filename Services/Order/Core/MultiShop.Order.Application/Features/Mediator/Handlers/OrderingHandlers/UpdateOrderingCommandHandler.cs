@@ -27,5 +27,6 @@ namespace MultiShop.Order.Application.Features.Mediator.Handlers.OrderingHandler
             values.UserID = request.UserID;
             values.TotalPrice = request.TotalPrice;
             await _repository.UpdateAsync(values);
+        }
     }
 }
