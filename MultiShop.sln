@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Cargo.WebApi", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{FCBE8B40-F30B-46CD-B62D-6AB7B7CFB9B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Basket", "Services\Basket\MultiShop.Basket\MultiShop.Basket.csproj", "{3792BDDC-772D-4B97-8D27-73BD3060B897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Basket", "Services\Basket\MultiShop.Basket\MultiShop.Basket.csproj", "{3792BDDC-772D-4B97-8D27-73BD3060B897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{36A0E3EC-A631-4DE1-A658-653F8CCA02C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
