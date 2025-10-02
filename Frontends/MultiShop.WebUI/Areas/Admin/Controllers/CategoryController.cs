@@ -64,7 +64,6 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             return View();
         }
 
-
         [Route("DeleteCategory/{id}")]
         public async Task<IActionResult> DeleteCategory(string id)
         {
