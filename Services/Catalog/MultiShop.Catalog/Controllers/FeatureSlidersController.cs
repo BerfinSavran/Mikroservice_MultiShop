@@ -26,7 +26,7 @@ namespace MultiShop.Catalog.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCatgoryById(string id)
+        public async Task<IActionResult> GetFeatureSliderById(string id)
         {
             var values = await _featureSliderService.GetByIdFeatureSliderAsync(id);
             return Ok(values);
