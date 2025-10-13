@@ -23,9 +23,9 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             ViewBag.v1 = "Ana Sayfa";
-            ViewBag.v2 = "Kategoriler";
-            ViewBag.v3 = "Kategori Listesi";
-            ViewBag.v0 = "Kategori İşlemleri";
+            ViewBag.v2 = "Öne Çıkan Görseller";
+            ViewBag.v3 = "Slider Öne Çıkan Görsel Listesi";
+            ViewBag.v0 = "Öne Çıkan Slider Görsel İşlemleri";
 
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7070/api/FeatureSliders");
@@ -83,9 +83,9 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         public async Task<IActionResult> UpdateFeatureSlider(string id)
         {
             ViewBag.v1 = "Ana Sayfa";
-            ViewBag.v2 = "Kategoriler";
-            ViewBag.v3 = "Kategori Güncelleme Sayfası";
-            ViewBag.v0 = "Kategori İşlemleri";
+            ViewBag.v2 = "Öne Çıkan Görseller";
+            ViewBag.v3 = "Slider Öne Çıkan Görsel Listesi";
+            ViewBag.v0 = "Öne Çıkan Slider Görsel İşlemleri";
 
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7070/api/FeatureSliders/" + id);

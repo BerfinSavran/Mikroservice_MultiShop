@@ -25,7 +25,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         {
             ViewBag.v1 = "Ana Sayfa";
             ViewBag.v2 = "Ürünler";
-            ViewBag.v3 = "ürün Listesi";
+            ViewBag.v3 = "Ürün Listesi";
             ViewBag.v0 = "Ürün İşlemleri";
 
             var client = _httpClientFactory.CreateClient();
@@ -44,7 +44,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         {
             ViewBag.v1 = "Ana Sayfa";
             ViewBag.v2 = "Ürünler";
-            ViewBag.v3 = "ürün Listesi";
+            ViewBag.v3 = "Ürün Listesi";
             ViewBag.v0 = "Ürün İşlemleri";
 
             var client = _httpClientFactory.CreateClient();
@@ -64,7 +64,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         {
             ViewBag.v1 = "Ana Sayfa";
             ViewBag.v2 = "Ürünler";
-            ViewBag.v3 = "ürün Listesi";
+            ViewBag.v3 = "Ürün Listesi";
             ViewBag.v0 = "Ürün İşlemleri";
 
             var client = _httpClientFactory.CreateClient();
